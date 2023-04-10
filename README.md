@@ -12,7 +12,7 @@ Our ultimate goal is to make it easy to install and configure the MUI Icons GPT 
 
 🚀 Getting Started
 
-To try out the demo of MUI Icons GPT, simply head to our live todo list app: [LINK TO LIVE APP]
+To try out the demo of MUI Icons GPT, simply head to our live todo list app: [HERE](https://mui-icons-qo4b90fkq-jacksonet00.vercel.app/)
 
 We've also included the source code for the demo in this repository so you can see how it works. 🤓
 
