@@ -1,4 +1,4 @@
-import { OPEN_AI_KEY } from '@/constants/secret';
+// import { OPEN_AI_KEY } from '@/constants/secret';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { Configuration, OpenAIApi } from "openai";
 
@@ -12,7 +12,7 @@ function snakeToPascalCase(str: string): string {
 async function getCompletion(query: string): Promise<string | null> {
   try {
     const configuration = new Configuration({
-      apiKey: OPEN_AI_KEY,
+      apiKey: process.env.OPEN_AI_KEY // || OPEN_AI_KEY,
     });
     const openai = new OpenAIApi(configuration);
     const response = await openai.createChatCompletion({
