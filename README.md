@@ -16,6 +16,8 @@ To try out the demo of MUI Icons GPT, simply head to our live todo list app: [HE
 
 We've also included the source code for the demo in this repository so you can see how it works. 🤓
 
+[![MUI Icons GPT Demo](./static/app-preview.gif)](./static/app-preview.gif)
+
 🤝 Contributing
 
 We welcome contributions to MUI Icons GPT! If you'd like to contribute, please fork this repository and submit a pull request. 💻
